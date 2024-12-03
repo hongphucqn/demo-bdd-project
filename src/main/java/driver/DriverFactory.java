@@ -8,7 +8,7 @@ public class DriverFactory {
     //Option 4: Auto-downloads by Selenium Java version >= 4.11.0
     public static WebDriver getChromeDriver322(){
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
+//        options.addArguments("--remote-allow-origins=*");
 
         return new ChromeDriver(options); //Need Selenium Java ver >= 4.11.0
     }
